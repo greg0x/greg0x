@@ -1,14 +1,17 @@
 # greg0x
 
-I'm Greg. I build wallets, wire mobile apps to Rust, and work on the plumbing around coding agents.
+I'm Greg. I build wallets, privacy infrastructure, and tools for people and coding agents to work together.
 
 Currently building **Berek**: multiplayer tooling for people and AI, with shared context across the whole delivery flow. A lot of that work is in private repos; here are some public things you can dig into.
 
 **Code & contributions**
 
-**Zcash / Zodl** — shielded voting across native wallets and Rust. Kotlin/JNI recovery state, commitment persistence and share tracking; SwiftUI/TCA orchestration, proof generation and resumable submission.
+**ValarGroup / Zcash** — shielded voting across the stack. My contributions span Rust, Go, TypeScript, Swift and Kotlin:
 
-[Android SDK recovery](https://github.com/zcash/zcash-android-wallet-sdk/pull/1953) · [iOS integration](https://github.com/zodl-inc/zodl-ios/pull/1744)
+- **Rust / PIR:** fetch, validate and cache PIR-backed nullifier non-membership proofs before delegation. [PIR proof cache](https://github.com/valargroup/zcash_voting/pull/31)
+- **Voting chain:** move key-ceremony state into individual voting rounds in the Cosmos SDK chain. [Round lifecycle](https://github.com/valargroup/vote-sdk/commit/5d32b847f3d19e8d4b3488f0cabe0dfc46263e8f)
+- **Operator tooling:** signed validator registration, admin approval, service discovery and automated TLS setup. [Registration API](https://github.com/valargroup/vote-shielded-vote-generator-ui/commit/79df7093f0ccf5526ab6a8b4244b8a3c797a9aba) · [Validator setup](https://github.com/valargroup/vote-sdk/commit/588dbf8cd6c57bde74806434f0806ab7f3361c5d)
+- **Native wallets / SDKs:** connect voting to iOS and Android through Rust FFI, with persisted state and resumable submission. [Android recovery](https://github.com/zcash/zcash-android-wallet-sdk/pull/1953) · [iOS integration](https://github.com/zodl-inc/zodl-ios/pull/1744)
 
 **Taho / Tally Ho** — Ethereum wallet internals: nonce handling across chains, detecting dropped transactions, and cleaning up retrieval state when the expected event never arrives.
 
