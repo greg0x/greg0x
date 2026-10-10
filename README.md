@@ -6,12 +6,21 @@ Currently building **Berek**: multiplayer tooling for people and AI, with shared
 
 **Code & contributions**
 
-| Project | Some of my work | Dig in |
-| --- | --- | --- |
-| **Zcash / Zodl** | Shielded voting across native wallets and Rust. Kotlin/JNI recovery state, commitment persistence and share tracking; SwiftUI/TCA orchestration, proof generation and resumable submission. | [Android SDK recovery](https://github.com/zcash/zcash-android-wallet-sdk/pull/1953) · [iOS integration](https://github.com/zodl-inc/zodl-ios/pull/1744) |
-| **Taho / Tally Ho** | Ethereum wallet internals: nonce handling across chains, detecting dropped transactions, and cleaning up retrieval state when the expected event never arrives. | [Nonce handling](https://github.com/tahowallet/extension/pull/2516) · [Dropped transactions](https://github.com/tahowallet/extension/pull/2527) |
-| **Mobile → Solana ZK** | An end-to-end spike: generate a Groth16 proof in React Native with mopro, convert the proof encoding, and verify it in a Solana program. | [Code + debugging notes](https://github.com/greg0x/zk-solana-mobile-verifier) |
-| **Cobold vs Hero** | A public workshop lab: Spring Boot, NestJS and Angular; API/browser checks, Helm/k3s PR previews, and explicit evidence approval before a change is ready. | [Repo](https://github.com/mimukodik/cobold-vs-hero) · [Preview + QA setup](https://github.com/mimukodik/cobold-vs-hero/pull/1) · [Evidence approval](https://github.com/mimukodik/cobold-vs-hero/pull/13) |
+**Zcash / Zodl** — shielded voting across native wallets and Rust. Kotlin/JNI recovery state, commitment persistence and share tracking; SwiftUI/TCA orchestration, proof generation and resumable submission.
+
+[Android SDK recovery](https://github.com/zcash/zcash-android-wallet-sdk/pull/1953) · [iOS integration](https://github.com/zodl-inc/zodl-ios/pull/1744)
+
+**Taho / Tally Ho** — Ethereum wallet internals: nonce handling across chains, detecting dropped transactions, and cleaning up retrieval state when the expected event never arrives.
+
+[Nonce handling](https://github.com/tahowallet/extension/pull/2516) · [Dropped transactions](https://github.com/tahowallet/extension/pull/2527)
+
+**Mobile → Solana ZK** — an end-to-end spike: generate a Groth16 proof in React Native with mopro, convert the proof encoding, and verify it in a Solana program.
+
+[Code + debugging notes](https://github.com/greg0x/zk-solana-mobile-verifier)
+
+**Cobold vs Hero** — a public workshop lab: Spring Boot, NestJS and Angular; API/browser checks, Helm/k3s PR previews, and explicit evidence approval before a change is ready.
+
+[Repo](https://github.com/mimukodik/cobold-vs-hero) · [Preview + QA setup](https://github.com/mimukodik/cobold-vs-hero/pull/1) · [Evidence approval](https://github.com/mimukodik/cobold-vs-hero/pull/13)
 
 The linked PRs are merged contributions. The mobile/Solana project is a proof of concept; Cobold is a workshop environment.
 
