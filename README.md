@@ -1,28 +1,24 @@
-# Greg Nagy
+# greg0x
 
-**Hands-on engineering lead · AI-assisted delivery · Forward-deployed engineering**
+I'm Greg. I build wallets, wire mobile apps to Rust, and work on the plumbing around coding agents.
 
-I help teams take complex products into production and use AI throughout delivery: understanding the problem, shaping the work, building, verifying and releasing.
+Currently building **Berek**: multiplayer tooling for people and AI, with shared context across the whole delivery flow. A lot of that work is in private repos; here are some public things you can dig into.
 
-Through [MI működik](https://mimukodik.hu), I offer practical workshops and embedded engineering engagements. I work alongside teams in their existing codebases, combining implementation with practices they can keep using.
+**Code & contributions**
 
-**Building Berek**
+| Project | Some of my work | Dig in |
+| --- | --- | --- |
+| **Zcash / Zodl** | Shielded voting across native wallets and Rust. Kotlin/JNI recovery state, commitment persistence and share tracking; SwiftUI/TCA orchestration, proof generation and resumable submission. | [Android SDK recovery](https://github.com/zcash/zcash-android-wallet-sdk/pull/1953) · [iOS integration](https://github.com/zodl-inc/zodl-ios/pull/1744) |
+| **Taho / Tally Ho** | Ethereum wallet internals: nonce handling across chains, detecting dropped transactions, and cleaning up retrieval state when the expected event never arrives. | [Nonce handling](https://github.com/tahowallet/extension/pull/2516) · [Dropped transactions](https://github.com/tahowallet/extension/pull/2527) |
+| **Mobile → Solana ZK** | An end-to-end spike: generate a Groth16 proof in React Native with mopro, convert the proof encoding, and verify it in a Solana program. | [Code + debugging notes](https://github.com/greg0x/zk-solana-mobile-verifier) |
+| **Cobold vs Hero** | A public workshop lab: Spring Boot, NestJS and Angular; API/browser checks, Helm/k3s PR previews, and explicit evidence approval before a change is ready. | [Repo](https://github.com/mimukodik/cobold-vs-hero) · [Preview + QA setup](https://github.com/mimukodik/cobold-vs-hero/pull/1) · [Evidence approval](https://github.com/mimukodik/cobold-vs-hero/pull/13) |
 
-I'm building Berek for **multiplayer AI-assisted delivery**: people and AI working together across business, product, design and engineering. The aim is to keep context connected as work moves through decisions, implementation, review and feedback.
+The linked PRs are merged contributions. The mobile/Solana project is a proof of concept; Cobold is a workshop environment.
 
-**Selected work**
+**Things I keep coming back to**
 
-- **Magyar Telekom:** delivered a two-month AI-assisted delivery programme combining team coaching with hands-on engineering in real applications; invited back for a follow-up programme.
-- **Taho / Tally Ho:** led wallet engineering from closed beta through launch and growth to more than 100,000 monthly active users. Presented [testing real dApps against a mainnet fork at ETHDenver](https://youtu.be/dY1GlGpZi50).
-- **Osmosis / Polaris:** built and launched an AI-powered news workflow, editorial tools and portfolio-aware features, alongside mobile development and a Go/Redis notification pipeline.
-- **ValarGroup / Zcash:** helped deliver [shielded voting in Zodl](https://zodl.com/zodl-3-5-0-vote-with-your-zec/), connecting mobile wallets, SDKs and privacy infrastructure.
+- Get the old system running. Turn its behavior into a spec you can execute against both implementations.
+- Give agents a reproducible environment, a small diff, and a way to check the actual user workflow.
+- Break the guard once. Make sure the test catches it.
 
-**What I work on**
-
-- Turning legacy behavior into executable specifications that can be checked against both old and new systems.
-- Helping people use AI together, with clear responsibilities, useful handoffs and shared acceptance criteria.
-- Making verification repeatable, so agents and people can check whether a change works before release.
-
-For a public technical example, see my [mobile-to-Solana zero-knowledge verification proof of concept](https://github.com/greg0x/zk-solana-mobile-verifier).
-
-**Work with me:** [MI működik](https://mimukodik.hu) · [LinkedIn](https://www.linkedin.com/in/puffancs/) · [hello@mimukodik.hu](mailto:hello@mimukodik.hu)
+[MI működik](https://mimukodik.hu) · [LinkedIn](https://www.linkedin.com/in/puffancs/)
