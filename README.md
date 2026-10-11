@@ -2,7 +2,7 @@
 
 I'm Greg. I build wallets, privacy infrastructure, and tools for people and coding agents to work together.
 
-Currently building **Berek**: multiplayer tooling for people and AI, with shared context across the whole delivery flow. A lot of that work is in private repos; here are some public things you can dig into.
+Currently building **Berek**: people and AI agents working on your company's tasks together. AI does the work, a person decides, and every improvement builds on the last. Runs on infrastructure you control. A lot of that work is in private repos; here are some public things you can dig into.
 
 **Code & contributions**
 
